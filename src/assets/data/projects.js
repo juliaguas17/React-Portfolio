@@ -1,45 +1,41 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import DailyScheduler from '../images/daily-schedule-img.jpg';
+import WeatherDashboard from '../images/weather-dash-img.jpg';
+import CommandLineGenerator from '../images/cli-img.jpg';
+import TechBlog from '../images/tech-blog-img.jpg';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    // https://github.com/juliaguas17/Daily-Scheduler
+    name: 'Daily Scheduler',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'A simple calendar application that allows a user to save events for each hour of the day. This application runs in the browser and features dynamically updated HTML and CSS powered by jQuery.',
+    img: DailyScheduler,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    // https://github.com/juliaguas17/Weather-Dashboard
+    name: 'Weather Dashboard',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'This application uses the OpenWeather API to store persistent weather data. It allows the user to search for a city and retrieve current and 5-day weather forecasts. It displays weather condition, temperature, wind speeds, and humidity.',
+    img: WeatherDashboard,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    // https://github.com/juliaguas17/CLI-Readme
+    name: 'Command Line README Generator',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      'This application builds a detailed README file for GitHub projects based on user responses to command line prompts.',
+    img: CommandLineGenerator,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    // https://github.com/juliaguas17/Tech-Blog
+    name: "Tech Blog",
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+      'This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developer posts. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.',
+    img: TechBlog,
   },
 ];
 

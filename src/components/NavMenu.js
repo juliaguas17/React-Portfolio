@@ -10,7 +10,7 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background-color: var(--white);
+  background-color: var(--linen);
   ul {
     max-width: 1200px;
     margin: 0 auto;
@@ -30,13 +30,13 @@ const NavStyles = styled.nav`
       font-family: 'Bolton';
       padding: 1rem 2rem;
       font-size: 2rem;
-      color: var(--beaver);
+      color: var(--raisin-black);
       outline: none;
     }
     .active {
       border-radius: 8px;
       background-color: var(--sage);
-      color: var(--linen);
+      color: var(--blush);
     }
   }
   .mobile-menu-icon {

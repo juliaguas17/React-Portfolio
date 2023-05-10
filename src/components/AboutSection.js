@@ -29,13 +29,7 @@ const AboutSectionStyles = styled.div`
     margin-left: 0;
     margin-right: 2rem;
   }
-  .aboutSection__buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-  }
+
   @media only screen and (max-width: 950px) {
     .aboutSection__left {
       flex: 4;

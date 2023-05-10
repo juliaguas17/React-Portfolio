@@ -18,5 +18,3 @@ export default function PText({ children }) {
     </PStyle>
   )
 }
-
-// Change p color to blush or something else to lay over hero photo
