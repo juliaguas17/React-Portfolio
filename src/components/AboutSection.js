@@ -74,7 +74,7 @@ export default function AboutSection() {
               heading="About Me"
             />
             <PText>
-            My collegiate background is primarily in STEM & Labor Economics. I’m currently pursuing a professional certificate in Full Stack Web Development. Some of the programming languages and technologies I've previously studied include Python, R, SQL, and Java.
+            I’m currently pursuing a professional certificate in full-stack web development. Some of the programming languages and technologies I've previously studied include Python, R, SQL, and Java.
             </PText>
           </div>
           <div className="aboutSection__right">
