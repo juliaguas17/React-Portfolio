@@ -50,7 +50,6 @@ const HeroStyles = styled.div`
 
   @media only screen and (max-width: 768px) {
     .hero {
-      margin-top: -5rem;
       min-height: 750px;
     }
     .hero__heading {
@@ -62,7 +61,7 @@ const HeroStyles = styled.div`
       }
     }
     .hero__img {
-      height: 300px;
+      height: 400px;
     }
     .hero__info {
       margin-top: 1rem;
@@ -77,7 +76,7 @@ export default function HeroSection() {
         <div className="hero">
           <div className="container">
             <h1 className="hero__heading">
-              <span>Hello, this is</span>
+              <p>Hello, this is</p>
               <span className="hero__name">Julianne Waters</span>
             </h1>
             <div className="hero__img">

@@ -12,14 +12,13 @@ SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
   background-color: var(--cambridge-blue);
-  padding: 10rem 0;
   .projects__allItems {
     display: flex;
     gap: 3rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   .swiper-container {
-    padding-top: 8rem;
+    padding-top: 4rem;
     max-width: 100%;
   }
   .swiper-button-prev,
@@ -45,11 +44,14 @@ const ProjectSectionStyle = styled.div`
     font-size: 2rem;
   }
   @media only screen and (max-width: 768px) {
+    .swiper-container {
+      align-items: center;
+    }
     .projects__allItems {
       flex-direction: column;
       max-width: 400px;
       margin: 0 auto;
-      margin-top: 7rem;
+      margin-top: 1rem;
       gap: 5rem;
       .projectItem__img {
         width: 100%;
@@ -87,13 +89,13 @@ export default function ProjectSection() {
                     {projects.map((project, index) => {
                         if(index >= 4) return;
                         return (
-                            <SwiperSlide key={project.id}>
+                          <SwiperSlide key={project.id}>
                             <ProjectItem
                                 title={project.name}
                                 img={project.img}
                                 desc={project.desc}
                             />
-                            </SwiperSlide>
+                          </SwiperSlide>
                         );
                     })}
                 </Swiper>
