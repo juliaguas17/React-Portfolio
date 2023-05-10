@@ -32,7 +32,7 @@ const GlobalStyles = createGlobalStyle`
     object-fit: cover;
   }
   button{
-    outline: none
+    outline: none;
     color: var(--blush);
   }
   .container {

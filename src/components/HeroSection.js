@@ -83,7 +83,7 @@ export default function HeroSection() {
               <PText>
                 Welcome to my portfolio website! I am a web developer who has been coding since 2015. I enjoy finding creative solutions to a variety of technical problems.
               </PText>
-              <Button btnText="My work" btnLink="/projects" />
+              <Button btnText="My Work" btnLink="/projects" />
             </div>
             </div>
         </div>
