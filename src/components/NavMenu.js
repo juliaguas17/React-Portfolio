@@ -10,7 +10,7 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--linen);
+  background: var(--white);
   ul {
     max-width: 1200px;
     margin: 0 auto;
@@ -22,7 +22,7 @@ const NavStyles = styled.nav`
       border-radius: 8px;
       transition: 0.3s ease background-color;
       &:hover {
-        background-color: var(--beaver);
+        background-color: var(--sage);
       }
     }
     a {
@@ -30,13 +30,13 @@ const NavStyles = styled.nav`
       font-family: 'Bolton';
       padding: 1rem 2rem;
       font-size: 2rem;
-      color: var(--sage);
+      color: var(--beaver);
       outline: none;
     }
     .active {
       border-radius: 8px;
-      background-color: var(--beaver);
-      color: var(--sage);
+      background-color: var(--sage);
+      color: var(--linen);
     }
   }
   .mobile-menu-icon {
@@ -65,7 +65,7 @@ const NavStyles = styled.nav`
     .navItems {
       --top: 1rem;
       transition: 0.3s ease transform;
-      background-color: var(--beaver);
+      background-color: var(--white);
       padding: 0.2rem 0.2rem 1rem 0rem;
       width: 70%;
       max-width: 300px;

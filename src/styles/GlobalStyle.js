@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
+    --white: #FFFFFF;
     --linen: #F3E6DD;
     --raisin-black: #241D1F;
     --sage: #B1BE90;

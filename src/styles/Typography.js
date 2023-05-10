@@ -21,14 +21,14 @@ const Typography = createGlobalStyle`
   }
   html{
     font-family: 'BoltonLight';
-    color: var(--sage);
+    color: var(--beaver);
   }
   *{
     font-family: 'BoltonLight';
-    color: var(--sage);
+    color: var(--white);
   }
   h1,h2,h3,h4,h5,h6{
-    font-family: 'Bolton'
+    font-family: 'Bolton';
   }
 `;
 
