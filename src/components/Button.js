@@ -8,14 +8,15 @@ const ButtonStyle = styled.div`
     .button {
         font-size: 2.2rem;
         background-color: ${(props) => 
-            props.outline ? 'var(--cambridge-blue)' : 'var(--blush)'};
+            props.outline ? 'var(--cambridge-blue)' : 'var(--blush)'
+        };
         padding: 0.7em 2em;
         border: 2px solid var(--blush);
         border-radius: 8px;
         display: inline-block;
         color: ${props => 
             props.outline ? 'var(--blush)' : 'var(--linen)'
-        }
+        };
     }
     @media only screen and (max-width: 768px) {
         .button {

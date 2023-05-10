@@ -6,7 +6,7 @@ text-align: center;
 p {
     font-family: "BoltonLight";
     font-size: 2rem;
-    color: var(--blush);
+    color: var(--white);
 }
 h2 {
     font-family: "BoltonTitling";

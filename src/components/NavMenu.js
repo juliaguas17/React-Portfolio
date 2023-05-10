@@ -30,7 +30,7 @@ const NavStyles = styled.nav`
       font-family: 'Bolton';
       padding: 1rem 2rem;
       font-size: 2rem;
-      color: var(--raisin-black);
+      color: var(--beaver);
       outline: none;
     }
     .active {

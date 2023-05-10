@@ -21,7 +21,7 @@ const Typography = createGlobalStyle`
   }
   html{
     font-family: 'BoltonLight';
-    color: var(--beaver);
+    color: var(--raisin-black);
   }
   *{
     font-family: 'BoltonLight';
