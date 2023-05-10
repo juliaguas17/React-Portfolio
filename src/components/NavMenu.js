@@ -63,15 +63,15 @@ const NavStyles = styled.nav`
       display: block;
     }
     .navItems {
-      --top: 1rem;
+      --top: 1.2rem;
       transition: 0.3s ease transform;
-      background-color: var(--white);
-      padding: 0.2rem 0.2rem 1rem 0rem;
+      background-color: var(--sage);
+      padding: 0.2rem 0.2rem 2rem 0rem;
       width: 70%;
       max-width: 300px;
-      border-radius: 8px;
+      border: 2px solid var(--white);
       position: absolute;
-      right: 1rem;
+      right: 1.2rem;
       top: var(--top);
       .closeNavIcon {
         display: block;

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const ButtonStyle = styled.div`
+    font-family: "BoltonTitling";
     margin-top: 2rem;
     .button {
         font-size: 2.2rem;

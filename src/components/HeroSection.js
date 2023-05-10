@@ -17,15 +17,17 @@ const HeroStyles = styled.div`
     background-color: var(--cambridge-blue);
   }
   .hero__heading {
+    margin-top: 4rem;
     line-height: 4rem;
     font-size: 2rem;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
     position: relative;
     span {
       display: inline-block;
       width: 100%;
     }
     .hero__name {
+      margin: 0.4rem;
       font-family: 'BoltonTitling';
       font-size: 5rem;
       color: var(--blush);
@@ -44,6 +46,7 @@ const HeroStyles = styled.div`
 
   @media only screen and (max-width: 768px) {
     .hero {
+      margin-top: -5rem;
       min-height: 750px;
     }
     .hero__heading {
@@ -59,6 +62,7 @@ const HeroStyles = styled.div`
     }
     .hero__info {
       margin-top: 1rem;
+      margin-bottom: -4rem;
     }
   }
 `;

@@ -33,6 +33,7 @@ const GlobalStyles = createGlobalStyle`
   }
   button{
     outline: none
+    color: var(--blush);
   }
   .container {
     max-width: 1200px;
