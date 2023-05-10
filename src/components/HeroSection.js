@@ -81,7 +81,7 @@ export default function HeroSection() {
             </div>
             <div className="hero__info">
               <PText>
-                Welcome to my portfolio website! I am a web developer who has been coding since 2015. I enjoy finding creative solutions to a variety of technical problems.
+                Welcome to my portfolio website! I am a web developer who has been coding since 2015. I enjoy finding creative solutions to technical problems in a variety of fields.
               </PText>
               <Button btnText="My Work" btnLink="/projects" />
             </div>
