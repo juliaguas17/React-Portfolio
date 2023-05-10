@@ -24,7 +24,7 @@ const Typography = createGlobalStyle`
     color: var(--raisin-black);
   }
   *{
-    font-family: 'BoltonLight';
+    font-family: 'Bolton';
     color: var(--white);
   }
   h1,h2,h3,h4,h5,h6{

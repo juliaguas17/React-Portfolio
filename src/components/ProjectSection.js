@@ -27,7 +27,7 @@ const ProjectSectionStyle = styled.div`
     position: absolute;
     height: 50px;
     width: 50px;
-    background: var(--beaver);
+    background: var(--sage);
     z-index: 10;
     right: 60px;
     left: auto;
@@ -35,7 +35,7 @@ const ProjectSectionStyle = styled.div`
     transform: translateY(50%);
     color: var(--linen);
     border-radius: 8px;
-    border: 2px solid var(--linen);
+    border: 2px solid var(--raisin-black);
   }
   .swiper-button-next {
     right: 0;

@@ -69,7 +69,8 @@ const NavStyles = styled.nav`
       padding: 0.2rem 0.2rem 2rem 0rem;
       width: 70%;
       max-width: 300px;
-      border: 2px solid var(--white);
+      border-radius: 8px;
+      border: 2px solid var(--raisin-black);
       position: absolute;
       right: 1.2rem;
       top: var(--top);

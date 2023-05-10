@@ -31,6 +31,10 @@ const HeroStyles = styled.div`
       font-family: 'BoltonTitling';
       font-size: 5rem;
       color: var(--blush);
+      text-shadow: -1px 1px 0 var(--raisin-black),
+				  2px 2px 0 var(--raisin-black),
+				  1px -1px 0 var(--raisin-black);
+				  -2px -2px 0 var(--raisin-black);
     }
   }
   .hero__img {
