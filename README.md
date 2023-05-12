@@ -4,10 +4,10 @@
 This a portfolio I created using React. It includes a bio, projects page and a contact page.
 
 ## Screenshots
-![Home](images/Screenshot%20(139).png)
-![About](images/Screenshot%20(140).png)
-![Projects](images/Screenshot%20(141).png)
-![Responsive Nav](images/Screenshot%20(142).png)
+![Home](images/Screenshot%20(142).png)
+![About](images/Screenshot%20(139).png)
+![Projects](images/Screenshot%20(140).png)
+![Responsive](images/Screenshot%20(141).png)
 
 ## Contributions
 I utilized the following tutoria to add responsive components to my page:
