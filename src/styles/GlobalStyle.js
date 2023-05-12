@@ -58,3 +58,5 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 export default GlobalStyles;
+
+// Review Smooth Scroll
