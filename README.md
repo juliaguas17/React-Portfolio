@@ -4,9 +4,12 @@
 This a portfolio I created using React. It includes a bio, projects page and a contact page.
 
 ## Screenshots
+As you can see, the navigation highlights on hover but does not change based on the part of the page you are on in the current development stage.
 ![Home](images/Screenshot%20(142).png)
 ![About](images/Screenshot%20(139).png)
 ![Projects](images/Screenshot%20(140).png)
+
+However, I have implemented a mobile responsive navigation.
 ![Responsive](images/Screenshot%20(141).png)
 
 ## Contributions
