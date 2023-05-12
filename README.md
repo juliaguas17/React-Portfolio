@@ -10,7 +10,7 @@ This a portfolio I created using React. It includes a bio, projects page and a c
 ![Responsive](images/Screenshot%20(141).png)
 
 ## Contributions
-I utilized the following tutoria to add responsive components to my page:
+I utilized the following tutorial playlist to add responsive components to my page:
 https://www.youtube.com/playlist?list=PLRv_Gd5w9e7mO-lGxKkNSWiAlsiZHnQYY
 
 ## Future Development
