@@ -3,6 +3,9 @@
 ## Description
 This a portfolio I created using React. It includes a bio, projects page and a contact page.  
 
+## Page
+https://juliaguas17.github.io/React-Portfolio/
+
 ## Screenshots
 As you can see, the navigation highlights on hover but does not change based on the part of the page you are on in the current development stage.  
 ![Home](images/Screenshot%20(142).png)
