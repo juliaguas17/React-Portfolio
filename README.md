@@ -11,4 +11,4 @@ https://www.youtube.com/playlist?list=PLRv_Gd5w9e7mO-lGxKkNSWiAlsiZHnQYY
 
 ## Future Edits
 
-I'm still in the process of adding my resume and a contact form to this page. Stay tuned.
+I'm still in the process of adding my resume, contact form, and footer to this page. Stay tuned.
