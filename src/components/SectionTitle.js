@@ -34,8 +34,8 @@ h2 {
 `;
 
 export default function SectionTitle({
-    subheading = 'This is subheading',
-    heading = "This is heading"
+    subheading = 'Subheading',
+    heading = 'Heading'
 }) {
   return (
     <SectionTitleStyle>

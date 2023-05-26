@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import DailyScheduler from '../images/daily-schedule-img.jpg';
 import WeatherDashboard from '../images/weather-dash-img.jpg';
-import CommandLineGenerator from '../images/cli-img.jpg';
+import Bookstore from '../images/bookstore_img.jpg';
 import TechBlog from '../images/tech-blog-img.jpg';
 
 const projects = [
@@ -23,11 +23,11 @@ const projects = [
   },
   {
     id: uuidv4(),
-    // https://github.com/juliaguas17/CLI-Readme
-    name: 'Command Line README Generator',
+    // https://github.com/jengle-dev/JJR-Bookstore
+    name: 'Bookstore',
     desc:
-      'This application builds a detailed README file for GitHub projects based on user responses to command line prompts.',
-    img: CommandLineGenerator,
+      'This an e-commerce website for a hypothetical local book shop, showcasing featured book recommendations.',
+    img: Bookstore,
   },
   {
     id: uuidv4(),
